@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'VKarmaneSDK_Example' do
+  pod 'VKarmaneSDK', :path => '../'
+
+  target 'VKarmaneSDK_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

@@ -1,0 +1,18 @@
+PODS:
+  - VKarmaneSDK (1.0.0):
+    - VKarmaneSDK/Encryption (= 1.0.0)
+  - VKarmaneSDK/Encryption (1.0.0)
+
+DEPENDENCIES:
+  - VKarmaneSDK (from `../`)
+
+EXTERNAL SOURCES:
+  VKarmaneSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  VKarmaneSDK: 8ed34ac00d6aad2c5d278fba880260301b7c5150
+
+PODFILE CHECKSUM: 9e018fb1f432a61fa7b9ecde8e1389c01a3ad86c
+
+COCOAPODS: 1.5.3

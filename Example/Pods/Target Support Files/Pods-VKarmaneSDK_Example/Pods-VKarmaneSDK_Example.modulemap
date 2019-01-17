@@ -1,0 +1,6 @@
+framework module Pods_VKarmaneSDK_Example {
+  umbrella header "Pods-VKarmaneSDK_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module VKarmaneSDK {
+  umbrella header "VKarmaneSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}
