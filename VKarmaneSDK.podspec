@@ -6,7 +6,7 @@
 Pod::Spec.new do |s|
   s.name             = 'VKarmaneSDK'
   s.version          = '1.0.0'
-  s.summary          = 'A short description of VKarmaneSDK.'
+  s.summary          = 'Access to content of VKarmane App with SDK.'
   s.description      = 'VKarmane application SDK to provide convenient cross-application interaction'
 
   s.homepage         = 'https://github.com/TinkoffCreditSystems/vkarmane-sdk-ios.git'
