@@ -1,5 +1,6 @@
-language: objective-c
-osx_image: xcode9.2
+os: osx
+osx_image: xcode10.1	
+language: swift
 env:
   - XCODE_SCHEME=VKarmaneSDK-Example
     XCODE_WORKSPACE=Example/VKarmaneSDK.xcworkspace
