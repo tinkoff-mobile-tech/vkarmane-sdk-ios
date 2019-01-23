@@ -6,6 +6,6 @@ env:
     XCODE_WORKSPACE=Example/VKarmaneSDK.xcworkspace
     XCODE_DESTINATION="platform=iOS Simulator,OS=10.0,name=iPhone 5s"
 script:
-  - xcodebuild clean -workspace "$XCODE_PROJECT" -scheme "$XCODE_SCHEME"
+  - xcodebuild clean -workspace "$XCODE_WORKSPACE" -scheme "$XCODE_SCHEME"
   - set -o pipefail && xcodebuild build -workspace "$XCODE_WORKSPACE" -scheme "$XCODE_SCHEME" -destination "$XCODE_DESTINATION" | xcpretty -s
   - pod lib lint
