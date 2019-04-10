@@ -969,7 +969,7 @@ true | Выбраны сюрвейерские услуги |
 {
     "kind": "BankCard",
     "cardholder": "OLEG TINKOFF",
-    "expiryDate": "12/18",
+    "expiryDate": "01/20",
     "number": "4111111111111111"
 }
 ```
